@@ -34,7 +34,7 @@
 
 # INPUT: 
 ### ex2.l
-```
+```c
 %{
 #include <stdio.h>
 #include <stdlib.h>
@@ -82,7 +82,7 @@ int yywrap() { return 1; }
 
 ```
 ### var.c
-```
+```c
 #include<stdio.h>
 int main()
 {
